@@ -5,35 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mergington High School Activities</title>
     <link rel="stylesheet" href="styles.css" />
-    <style>
-      /* Participants section styling */
-      .participants-section {
-        margin-top: 1em;
-        background: #f8f9fa;
-        border-radius: 6px;
-        padding: 0.5em 1em;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
-      }
-      .participants-section strong {
-        display: block;
-        margin-bottom: 0.3em;
-        color: #2c3e50;
-      }
-      .participants-list {
-        margin: 0;
-        padding-left: 1.2em;
-        color: #34495e;
-      }
-      .participants-list li {
-        margin-bottom: 0.2em;
-        list-style-type: disc;
-      }
-      .no-participants {
-        color: #888;
-        font-style: italic;
-        margin: 0.2em 0 0.2em 0;
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -55,12 +26,7 @@
         <form id="signup-form">
           <div class="form-group">
             <label for="email">Student Email:</label>
-            <input
-              type="email"
-              id="email"
-              required
-              placeholder="your-email@mergington.edu"
-            />
+            <input type="email" id="email" required placeholder="your-email@mergington.edu" />
           </div>
           <div class="form-group">
             <label for="activity">Select Activity:</label>
@@ -72,17 +38,6 @@
           <button type="submit">Sign Up</button>
         </form>
         <div id="message" class="hidden"></div>
-      </section>
-
-      <section class="participants-section">
-        <strong>Participants List:</strong>
-        <ul class="participants-list">
-          <!-- Participants will be listed here -->
-          <li>John Doe - Soccer</li>
-          <li>Jane Smith - Basketball</li>
-          <li>Emily Johnson - Drama Club</li>
-        </ul>
-        <p class="no-participants">No participants yet.</p>
       </section>
     </main>
 
