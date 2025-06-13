@@ -149,6 +149,7 @@ footer {
   border-radius: 6px;
   padding: 0.5em 1em;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  margin-left: 12px; /* Indent the whole section slightly */
 }
 
 .participants-section strong {
@@ -159,7 +160,7 @@ footer {
 
 .participants-list {
   margin: 0;
-  padding-left: 1.2em;
+  padding-left: 2em; /* Increase indentation for sub-list effect */
   color: #34495e;
 }
 
